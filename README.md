@@ -1,6 +1,10 @@
 # CMS
-All MATLAB code written for my thesis on Component Mode Synthesis (CMS)
+All MATLAB code written for my diploma thesis on Component Mode Synthesis (CMS):
 
+"Advanced Model Reduction Techniques for Structural Dynamics Simulations", Department of Mechanical Engineering, University of Thessaly 
+
+The code is compatible with FE models created with COMSOL Multiphysics. MATLAB must be started with COMSOL server (using LiveLink).
+In the future, a user guide might be written.
 
 
 This work is licensed under a
