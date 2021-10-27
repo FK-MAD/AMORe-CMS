@@ -1,5 +1,4 @@
 # CMS
-
 Performs model reduction using component mode synthesis (CMS) based on the Craig-Bampton method. 
 Works with 3D and 2D structural FE models created with COMSOL Multiphysics.
 
@@ -7,7 +6,6 @@ The code is written in MATLAB. It was developed for my diploma thesis "Advanced 
 In the future, a user guide might be written.
 
 # Main Features
-
 Non-parametrized CMS: The non-parametrized reduced-order matrices are constant.
 Three variants:
 1) Without interface reduction
@@ -23,7 +21,6 @@ Three variants:
 Additional Features: Consideration of residual normal modes (static correction), meta-model for interpolation of interface modes using minimum number of support points, definition of interfaces by user, optimization of number of kept modes, efficient RAM usage, highly parallelized
 
 # License
-
 This work is licensed under a
 [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International Public License][cc-by-nc-nd].
 
