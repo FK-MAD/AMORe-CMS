@@ -20,6 +20,20 @@ Three variants:
 
 Additional Features: Consideration of residual normal modes (static correction), meta-model for interpolation of interface modes using minimum number of support points, definition of interfaces by user, optimization of number of kept modes, efficient RAM usage, highly parallelized
 
+# Some results
+Non-parametrized CMS was applied on a FE model of a highway bridge consisting of approximately 1M DOF. The model is divided in 22 substructures.
+
+## Division in substructures (in COMSOL)
+![](https://github.com/FK-MAD/CMS/blob/main/Metsovo%20bridge%20results/metsovo%2022%20parameters%20iso%20-%20numbered.png?raw=true)
+
+
+## Reduction of internal DOF per component
+![](https://github.com/FK-MAD/CMS/blob/main/Metsovo%20bridge%20results/internall%20dofs%20full%20vs%20reduced.svg?raw=true)
+
+
+## Fractional modal frequency error
+![](https://github.com/FK-MAD/CMS/blob/main/Metsovo%20bridge%20results/no%20vs%20global%20vs%20local.svg?raw=true)
+
 # License
 This work is licensed under a
 [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International Public License][cc-by-nc-nd].
