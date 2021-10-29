@@ -31,7 +31,7 @@ Non-parametrized CMS was applied on a FE model of a highway bridge consisting of
 ![](https://github.com/FK-MAD/CMS/blob/main/Metsovo%20bridge%20results/internall%20dofs%20full%20vs%20reduced.svg?raw=true)
 
 
-## Fractional modal frequency error
+## Fractional modal frequency error between full and reduced-order models
 ![](https://github.com/FK-MAD/CMS/blob/main/Metsovo%20bridge%20results/no%20vs%20global%20vs%20local.svg?raw=true)
 
 # License
