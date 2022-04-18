@@ -1,8 +1,8 @@
 # CMS
 Performs model reduction using component mode synthesis (CMS) based on the Craig-Bampton method. 
-Works with 3D and 2D structural FE models created with COMSOL Multiphysics. The formulations are based on ["Sub-structure Coupling for Dynamic Analysis"](https://link.springer.com/book/10.1007/978-3-030-12819-7) by Jensen & Papadimitriou.
+Works with 3D and 2D structural FE models created with COMSOL Multiphysics. The formulations are based on ["Sub-structure Coupling for Dynamic Analysis"](https://link.springer.com/book/10.1007/978-3-030-12819-7) by H.Jensen & C.Papadimitriou.
 
-The code is written in MATLAB. It was developed for my diploma thesis "Advanced Model Reduction Techniques for Structural Dynamics Simulations" at the Department of Mechanical Engineering of the University of Thessaly. MATLAB must be started with a COMSOL server (using LiveLink).
+The code is written in MATLAB. It was developed for my diploma thesis ["Advanced Model Reduction Techniques for Structural Dynamics Simulations"](https://ir.lib.uth.gr/xmlui/handle/11615/57557) at the Department of Mechanical Engineering of the University of Thessaly. MATLAB must be started with a COMSOL server (using LiveLink).
 In the future, a user guide might be written.
 
 # Main Features
