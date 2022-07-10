@@ -20,7 +20,7 @@ Three variants:
 
 Additional Features: Consideration of residual normal modes (static correction), meta-model for interpolation of interface modes using minimum number of support points, definition of interfaces by user, optimization of number of kept modes, efficient RAM usage, highly parallelized
 
-# Some results
+# Application from Diploma Thesis
 
 ## Non-parametrized CMS
 Non-parametrized CMS was applied to a high-fidelity FE model of a highway bridge consisting of 944,613 DOFs. The model is divided in 22 substructures and results in 928,200 internall DOFs (not shared between two or more components) and 16,413 interface DOFs (existing at the interface of two or more components).
@@ -28,13 +28,17 @@ Non-parametrized CMS was applied to a high-fidelity FE model of a highway bridge
 ### Division in substructures (in COMSOL)
 ![](https://github.com/FK-MAD/CMS/blob/main/Metsovo%20bridge%20results/metsovo%2022%20parameters%20iso%20-%20numbered.png?raw=true)
 
-
-### Reduction of internal DOF per component
+### Complexity of ROM
 ![](https://github.com/FK-MAD/CMS/blob/main/Metsovo%20bridge%20results/internall%20dofs%20full%20vs%20reduced.svg?raw=true)
 
+*Number of DOF per component of the full and reduced FE 
+model*
 
-### Fractional modal frequency error between full and reduced-order models
+### Accuracy of ROMs
 ![](https://github.com/FK-MAD/CMS/blob/main/Metsovo%20bridge%20results/no%20vs%20global%20vs%20local.svg?raw=true)
+
+*Fractional modal frequency error - as a function of eigenmode number - between 
+the predictions of the full   FE model and the three reduced-order models with different treatment of interface DOFs*
 
 ## Parametrized CMS
 Parametrized CMS was applied on the same bridge model. Each sub-structure is associated with one parameter (22 parameters) affecting its modulus of elasticity. Three parametrized reduced-order models (pROMs) were developed:
@@ -49,6 +53,11 @@ In this application, the pROMs were used to predict the first few modal frequenc
 ![](https://github.com/FK-MAD/CMS/blob/main/Metsovo%20bridge%20results/errors_all_v3.svg?raw=true)
 
 *Median fractional modal frequency error (from 100 runs) - as a function of eigenmode number - between the predictions of the full model and the three pROMs*
+
+
+![](https://github.com/FK-MAD/CMS/blob/main/Metsovo%20bridge%20results/errors_all_multi_v3%20-%201.svg?raw=true)
+
+*Fractional error between the predictions of the full FE model and the three pROMs at each sample point for the first four modal frequencies*
 
 ### Speed of pROMs
 
