@@ -21,18 +21,32 @@ Three variants:
 Additional Features: Consideration of residual normal modes (static correction), meta-model for interpolation of interface modes using minimum number of support points, definition of interfaces by user, optimization of number of kept modes, efficient RAM usage, highly parallelized
 
 # Some results
-Non-parametrized CMS was applied on a FE model of a highway bridge consisting of approximately 1M DOF. The model is divided in 22 substructures.
 
-## Division in substructures (in COMSOL)
+## Non-parametrized CMS
+Non-parametrized CMS was applied to a high-fidelity FE model of a highway bridge consisting of 944,613 DOFs. The model is divided in 22 substructures and results in 928,200 internall DOFs (not shared between two or more components) and 16,413 interface DOFs (existing at the interface of two or more components).
+
+### Division in substructures (in COMSOL)
 ![](https://github.com/FK-MAD/CMS/blob/main/Metsovo%20bridge%20results/metsovo%2022%20parameters%20iso%20-%20numbered.png?raw=true)
 
 
-## Reduction of internal DOF per component
+### Reduction of internal DOF per component
 ![](https://github.com/FK-MAD/CMS/blob/main/Metsovo%20bridge%20results/internall%20dofs%20full%20vs%20reduced.svg?raw=true)
 
 
-## Fractional modal frequency error between full and reduced-order models
+### Fractional modal frequency error between full and reduced-order models
 ![](https://github.com/FK-MAD/CMS/blob/main/Metsovo%20bridge%20results/no%20vs%20global%20vs%20local.svg?raw=true)
+
+## Parametrized CMS
+Parametrized CMS was applied on the same bridge model. Each sub-structure is associated with one parameter (22 parameters) affecting its modulus of elasticity. Three parametrized reduced-order models (pROMs) were developed:
+- NIR-pROM: reduced-order model where reduction occurs only on internal DOFs of each component (No Interface Reduction). It consists of 46 internal DOFs and 16,413 interface DOFs (16,459 DOFs in total).
+- GIR-pROM/SX1: reduced-order model where reduction occurs both on internal DOFs of each component and on the DOFs of the interface at the global level (Global Interface Reduction). It consists of 46 internal DOFs and 36 interface DOFs (82 DOFs in total).
+- LIR-pROM/C: reduced-order model where reduction occurs both on internal DOFs of each component and on the DOFs of the interface at the local level (Local Interface Reduction). It consists of 46 internal DOFs and 291 interface DOFs (337 DOFs in total).
+
+In this application, the pROMs were used to predict the first few modal frequencies of the bridge for different values of the 22 parameters affecting the modulus of elasticity of each sub-structure. To test the speed and accuracy of each pROM compared to the full model, 100 runs (predictions) were performed with parameters sampled from a 22-dim Gaussian distribution at every run.
+
+### Accuracy of pROMs
+
+
 
 # License
 This work is licensed under a
