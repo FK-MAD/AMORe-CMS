@@ -46,7 +46,18 @@ In this application, the pROMs were used to predict the first few modal frequenc
 
 ### Accuracy of pROMs
 
+![](https://github.com/FK-MAD/CMS/blob/main/Metsovo%20bridge%20results/errors_all_v3.svg?raw=true)
 
+*Median fractional modal frequency error (from 100 runs) - as a function of eigenmode number - between the predictions of the full model and the three pROMs*
+
+### Speed of pROMs
+
+| Model  | Full FE Model | NIR-pROM | GIR-pROM/SX1 | LIR-pROM/C |
+| ------------- | :-------------: | :-------------: | :-------------: | :-------------: |
+| Mean total iteration time [sec] | 116.5 | 32.6 | 6.9 | 0.02  |
+| Speedup over the full FE model | 1x | 3.6x | 16.9x | 5825x  |
+
+*Mean computational times (from 100 runs) of a single simulation step and speedup for the full FE model and the three pROMs*
 
 # License
 This work is licensed under a
