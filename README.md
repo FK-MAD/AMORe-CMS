@@ -47,8 +47,7 @@ Three ROMs were created each one with different treatment of interface modes. Th
 ### Number of DOF per component of the full-order model and NIR-ROM
 ![](https://github.com/FK-MAD/CMS/blob/main/Metsovo%20bridge%20results/internall%20dofs%20full%20vs%20reduced.svg?raw=true)
 
-### Fractional modal frequency error - as a function of eigenmode number - between 
-the predictions of the full-order model and the three ROMs
+### Fractional modal frequency error - as a function of eigenmode number - between the predictions of the full-order model and the three ROMs
 ![](https://github.com/FK-MAD/CMS/blob/main/Metsovo%20bridge%20results/no%20vs%20global%20vs%20local.svg?raw=true)
 
 It can be seen that the maximum error for all ROMs is **$\sim10^{-2}$ or approximately 1%**.
