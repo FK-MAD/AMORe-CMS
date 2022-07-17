@@ -58,7 +58,7 @@ Parametrized CMS was applied on the same bridge model. Each sub-structure is ass
 
 In this application, the pROMs were used to predict the first twenty modal frequencies of the bridge for different values of the 22 parameters affecting the modulus of elasticity of each sub-structure. To test the speed and accuracy of each pROM compared to the full model, 100 runs (predictions) were performed with parameters sampled from a 22-dim Gaussian distribution at every run.
 
-Three pROMs were created with same number of internal and interface DOFs as the corresponding ROMs presented above. Apart from the difference in number of kept DOFs, there are also differences in the way interface modes are calculated at each step of the simulation for each pROM.
+Three pROMs were created with same number of internal and interface DOFs as the corresponding ROMs presented above. Each pROM calculates the interface modes at each step of the simulation using a different method.
 - NIR-pROM: No interface reduction is performed, interface modes are explicitly calculated at each step of the simulation
 - GIR-pROM/SX1: At each step of the simulation, interface modes are interpolated (not explicitly solved) using a proposed meta-model
 - LIR-pROM/C: Interface modes are calculated once for the reference model and kept constant at each step of the simulation
