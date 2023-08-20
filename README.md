@@ -1,4 +1,4 @@
-# CMS
+# AMORe-CMS: Automatic Model Order Reduction using Component Mode Synthesis
 Performs physics-based model reduction using component mode synthesis (CMS) based on the Craig-Bampton method. 
 Works with 3D and 2D structural FE models created with COMSOL Multiphysics. The formulations are based on ["Sub-structure Coupling for Dynamic Analysis"](https://link.springer.com/book/10.1007/978-3-030-12819-7) by H.Jensen & C.Papadimitriou.
 
