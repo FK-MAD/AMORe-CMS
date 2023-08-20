@@ -2,7 +2,7 @@
 # Visit https://bit.ly/cffinit to generate yours today!
 
 cff-version: 1.2.0
-title: CMS
+title: AMORe-CMS
 message: >-
   If you use this software, please cite it using the
   metadata from this file.
@@ -14,8 +14,9 @@ authors:
 repository-code: 'https://github.com/FK-MAD/CMS'
 url: 'https://github.com/FK-MAD/CMS'
 abstract: >-
-  MATLAB code that automatically performs physics-based
-  model reduction using component mode synthesis (CMS) on
+  Automatic Model Order Reduction using Component Mode Syntesis
+  is MATLAB software that automatically performs physics-based
+  model order reduction using component mode synthesis (CMS) on
   structural FE models made in COMSOL Multiphysics.
 keywords:
   - Matlab
