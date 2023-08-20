@@ -1,0 +1,30 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: CMS
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: FILIPPOS
+    family-names: KATSIMALIS
+    email: f.katsimalis@gmail.com
+repository-code: 'https://github.com/FK-MAD/CMS'
+url: 'https://github.com/FK-MAD/CMS'
+abstract: >-
+  MATLAB code that automatically performs physics-based
+  model reduction using component mode synthesis (CMS) on
+  structural FE models made in COMSOL Multiphysics.
+keywords:
+  - Matlab
+  - Comsol
+  - FEA
+  - Eigenanalysis
+  - Parametrization
+  - Substructuring
+license: CC-BY-NC-ND-4.0
+commit: 8b20bfeb3246f5f9922b40a94708ef9b6904b3fa
+version: 1.0.0
+date-released: '2022-07-17'
