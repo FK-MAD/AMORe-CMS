@@ -11,8 +11,8 @@ authors:
   - given-names: FILIPPOS
     family-names: KATSIMALIS
     email: f.katsimalis@gmail.com
-repository-code: 'https://github.com/FK-MAD/CMS'
-url: 'https://github.com/FK-MAD/CMS'
+repository-code: 'https://github.com/FK-MAD/AMORe-CMS'
+url: 'https://github.com/FK-MAD/AMORe-CMS'
 abstract: >-
   Automatic Model Order Reduction using Component Mode Syntesis
   is MATLAB software that automatically performs physics-based
