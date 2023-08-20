@@ -5,6 +5,10 @@ Works with 3D and 2D structural FE models created with COMSOL Multiphysics. The 
 The code is written in MATLAB and communicates with COMSOL Multiphysics through LiveLink for MATLAB. I developed it for my diploma thesis ["Advanced Model Reduction Techniques for Structural Dynamics Simulations"](https://ir.lib.uth.gr/xmlui/handle/11615/57557?locale-attribute=en) at the Department of Mechanical Engineering of the University of Thessaly. MATLAB must be started with a COMSOL server (using LiveLink).
 In the future, a user guide might be written.
 
+**Citing this work**
+- If you use this software in your work, please cite it using the metadata in the [citation file](https://github.com/FK-MAD/AMORe-CMS/blob/main/CITATION.cff).
+- If you use the thesis in your work, please cite is as: F. Katsimalis, _Advanced model reduction techniques for structural dynamics simulations (thesis)_. Univeristy of Thessaly, 2021.
+
 # Main Features
 ## Non-parametrized CMS
 The non-parametrized reduced-order matrices are constant, independent of model parameters. Three variants of reduced-order models (ROMs) can be created based on treatment of the degrees of freedom (DOFs) at the interface between two or more components.
