@@ -9,6 +9,8 @@ In the future, a user guide might be written.
 - If you use this software in your work, please cite it using the metadata in the [citation file](https://github.com/FK-MAD/AMORe-CMS/blob/main/CITATION.cff).
 - If you use the thesis in your work, please cite is as: F. Katsimalis, _Advanced model reduction techniques for structural dynamics simulations (thesis)_. Univeristy of Thessaly, 2021.
 
+**User Guide:** A user guide is underway and will be released once it is ready :wink:
+
 # Main Features
 ## Non-parametrized CMS
 The non-parametrized reduced-order matrices are constant, independent of model parameters. Three variants of reduced-order models (ROMs) can be created based on treatment of the degrees of freedom (DOFs) at the interface between two or more components.
