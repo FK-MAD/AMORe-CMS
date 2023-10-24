@@ -7,7 +7,7 @@ In the future, a user guide might be written.
 
 **Citing this work**
 - If you use this software in your work, please cite it using the metadata in the [citation file](https://github.com/FK-MAD/AMORe-CMS/blob/main/CITATION.cff).
-- If you use the thesis in your work, please cite is as: F. Katsimalis, _Advanced model reduction techniques for structural dynamics simulations (thesis)_. Univeristy of Thessaly, 2021.
+- If you use the thesis in your work, please cite is as: F. Katsimalis, _Advanced Model Reduction Techniques for Structural Dynamics Simulations (thesis)_. Univeristy of Thessaly, 2021.
 
 **User Guide:** A user guide is underway and will be released once it is ready :wink:
 
